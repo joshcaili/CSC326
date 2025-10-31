@@ -1,0 +1,14 @@
+Stack for missed calls:
+
+The most recent missed call should be handled first, because it’s
+the most likely to be answered. If a customer recently called very
+recently. It's unlikely they have put their phone down.
+
+Whereas a call made a while ago, the customer most likely either
+does not need support anymore or has moved on to doing another
+activity.
+
+
+
+Queue for waiting customers:
+Customers who have been waiting the longest should be served first. Which preserves the focus for businesses,  "First come first serve".
