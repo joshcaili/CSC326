@@ -86,13 +86,6 @@ public:
         return count;
     }
 
-    Customer getAt(int position) {
-        Node* node = iterate(position);
-        if (node == nullptr) {
-            throw "Invalid position in getAt()";
-        }
-        return node->data;
-    }
 
     Customer removeFirst() {
         if (head == nullptr)
